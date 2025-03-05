@@ -31,3 +31,10 @@ To run the project code, execute this file:
 **`RunCodeProject.vbs`**
 
 ### Also you can read [HELP](HELP.md) to know more about the project
+
+
+## 📜 License
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## 📬 Support
+For any issues, feel free to open an issue on GitHub or contact us at hdai.code@gmail.com.
