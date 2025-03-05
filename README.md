@@ -21,7 +21,7 @@ KOLBOP is a powerful, AI-driven accounting software designed for businesses of a
 ```sh
 git clone https://github.com/your-repo/KOLBOP.git  
 cd KOLBOP  
-pip install -r [requirements.txt]
+pip install -r requirements.txt
 python NET_PRJ\manage.py migrate  
 python NET_PRJ\manage.py runserver  
 python Run.py
