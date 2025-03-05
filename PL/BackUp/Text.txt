@@ -1,0 +1,28 @@
+#### Back up
+import requests
+# POST a file
+url = "http://127.0.0.1:8000/bkup/"
+file_path = "Assets/DataBases/data.db"
+files = {"file": open(file_path, "rb")}
+response = requests.post(url, files=files)
+
+
+#### Download Files
+import base64
+import requests
+
+# Download all files
+url = "http://127.0.0.1:8000/bkup/get_files"
+response = requests.get(url)
+
+# download files
+for file_name, file_content in response.json().items():
+    with open(file_name, "wb") as file:
+        file.write(base64.b64decode(file_content))"""
+  
+  
+#### get all file names       
+import requests
+url = "http://127.0.0.1:8000/bkup/get_names"
+response = requests.get(url)
+print(response.json())

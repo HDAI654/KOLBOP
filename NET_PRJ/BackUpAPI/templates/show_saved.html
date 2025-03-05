@@ -1,0 +1,72 @@
+{% load static %}
+<html lang="en">
+
+    <head>
+        <title>Panel</title>
+        <meta charset="UTF-8"/>
+        <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
+        <script src="{% static 'js/jquery.js' %}"></script>
+        <script src="{% static 'js/popper.js' %}"></script>
+        <script src="{% static 'js/bootstrap.bundle.js' %}"></script>
+    </head>
+
+    <body class="body bg-dark">
+
+        <nav class="navbar navbar-expand-sm bg-light navbar-light fixed-top">
+
+            <a href="logout" title="Logout" data-toggle="popover" data-trigger="hover" data-content="Click to logout">
+                <img src="{% static 'images/logout.png' %}" class="rounded" alt="Logout" width="50" height="50">
+            </a>
+
+            <a href="#" class='h5 text-primary ml-5 border p-2' title="User Name" data-toggle="popover" data-trigger="hover" data-content="{{ user }}">{{ user }}</a>
+
+            <script>
+              $(document).ready(function(){
+                $('[data-toggle="popover"]').popover();   
+                $('[data-toggle="popover"]').popover();  
+              });
+            </script>
+
+        </nav>
+        
+       
+        <div class="container-fluid" style="margin-top:7%">
+
+          {% if files|length > 0 %}
+
+          {% for item in files %}
+          
+            <div class="row mb-3">
+              <div class="col-md-12">
+
+                <div id="accordion">
+
+                  <div class="card bg-transparent shadow-none border-0 ">
+                    <div class="card-header rounded shadow-sm bg-light">
+                      <a class="collapsed card-link text-primary" data-toggle="collapse" href="#collapse{{ forloop.counter }}">{{ item.0 }}</a>
+                    </div>
+                    <div id="collapse{{ forloop.counter }}" class="collapse bg-transparent shadow-none border-0" data-parent="#accordion">
+                      <div class="card-body shadow-none border-0 text-center bg-transparent">
+                        {{ item.1|safe }}
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+
+              </div>
+            </div>
+
+          {% endfor %}
+
+          {% else %}
+              <div class="alert alert-danger text-center">
+                <h4> <strong> No data to show </strong> </h4>
+              </div>
+          
+          {% endif %}
+        </div>
+        
+    </body>
+
+</html>
