@@ -1,0 +1,52 @@
+{
+    "messages": [
+        [
+            1,
+            "bye have a wonderful time"
+        ],
+        [
+            0,
+            "ok Bye"
+        ],
+        [
+            1,
+            "Goodbye it was great talking to you"
+        ],
+        [
+            0,
+            "Bye !"
+        ],
+        [
+            1,
+            "you are welcome"
+        ],
+        [
+            0,
+            "ok thanks"
+        ],
+        [
+            1,
+            "first you should go to the client section in the software then, click the add button in the toolbar to add a new client"
+        ],
+        [
+            0,
+            "how CaN I AdD a CliEnT ??"
+        ],
+        [
+            1,
+            "clicking the lock button will help you lock your app."
+        ],
+        [
+            0,
+            "How Can I lock my App ? I am very nervous"
+        ],
+        [
+            1,
+            "hey what is going on"
+        ],
+        [
+            0,
+            "Hi"
+        ]
+    ]
+}

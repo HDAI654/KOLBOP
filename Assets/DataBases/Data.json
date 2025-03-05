@@ -1,0 +1,83 @@
+{
+    "language": "English",
+    "Price_Unit": "$",
+    "DateFormat": "yyyy/MM/dd",
+    "DataBaseAddress": "Assets/DataBases/Data.db",
+    "CSS_Address": "Assets/DataBases/style.css",
+    "keep_login": 1,
+    "username": "Hamed_Amiri",
+    "password": "12345678",
+    "Saved_Tables": [
+        {
+            "Table_name": "Boss",
+            "Columns": [
+                [
+                    "Name",
+                    "String",
+                    "#3474ff",
+                    "#000000"
+                ],
+                [
+                    "Age",
+                    "Integer",
+                    "#58ffa6",
+                    "#000000"
+                ]
+            ],
+            "Rows_data": [
+                [
+                    "Hamed",
+                    36
+                ],
+                [
+                    "Hosain",
+                    78
+                ],
+                [
+                    "Kasra",
+                    29
+                ]
+            ],
+            "Primary_status": [],
+            "Columns_Charts_index": []
+        },
+        {
+            "Table_name": "PRD",
+            "Columns": [
+                [
+                    "ID",
+                    "Primary",
+                    "#ffffff",
+                    "#000000"
+                ],
+                [
+                    "Product",
+                    "String",
+                    "#ffffff",
+                    "#000000"
+                ]
+            ],
+            "Rows_data": [
+                [
+                    1,
+                    "Ball"
+                ],
+                [
+                    2,
+                    "Shoes"
+                ]
+            ],
+            "Primary_status": [
+                0
+            ],
+            "Columns_Charts_index": []
+        }
+    ],
+    "Custom_Table": {
+        "Table_name": "",
+        "Columns": [],
+        "Rows_data": [],
+        "Primary_status": [],
+        "Columns_Charts_index": []
+    }
+}
