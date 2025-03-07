@@ -1,4 +1,15 @@
 # KOLBOP  
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Django](https://img.shields.io/badge/Django-3.x-brightgreen)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange)
+![SQLite](https://img.shields.io/badge/SQLite-3.x-green)
+![GitHub](https://img.shields.io/badge/GitHub-Repo-blue)
+![PyQt5](https://img.shields.io/badge/PyQt-5.x-yellow)
+![HTML](https://img.shields.io/badge/HTML-5-red)
+![CSS](https://img.shields.io/badge/CSS-3-blue)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-4.x-purple)
 
 **Advanced Accounting Software for All Businesses**  
 
@@ -19,7 +30,7 @@ KOLBOP is a powerful, AI-driven accounting software designed for businesses of a
 - PostgreSQL or SQLite for database  
 ### Steps to Run:  
 ```sh
-git clone https://github.com/your-repo/KOLBOP.git  
+git clone https://github.com/HDAI654/KOLBOP.git  
 cd KOLBOP  
 pip install -r requirements.txt
 python NET_PRJ\manage.py migrate  
